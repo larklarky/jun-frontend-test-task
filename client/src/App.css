@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300&display=swap');
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue' 'Lexend Deca',
+    sans-serif;
+    color: #2d334a;  
+}
+
 .App {
   text-align: center;
+  margin-top: 3rem;
+  font-family: 'Lexend Deca';
 }
 
 .App-logo {
@@ -7,32 +18,55 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 10s linear;
-  }
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+progress {
+  width: 600px;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.horse-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  
+}
+
+.horse-name {
+  display: flex;
+  width: 15rem;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+
+svg {
+  position: relative;
+  top: 2px;
+  margin-right: 0.3rem;
+}
+
+.button-wrapper {
+  margin-top: 3rem;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #179ABF;
   color: white;
+  padding: 1rem 1.7rem;
+  font-size: 1.3rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: #1284a5;
 }
