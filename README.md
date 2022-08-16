@@ -1,9 +1,13 @@
+
 # Front-End Developer test task
 We want you to implement a small web app which can display horse betting status.
 
 Information about distance run by horse is available from a locally running server.
 Any additional visual enhancements will be a plus. 
 Be sure that your application is tested well.
+
+## My implementation(demo)
+![Demo](https://github.com/larklarky/jun-frontend-test-task/blob/main/HorseRaceApp.gif?raw=true)
 
 ## Requirements:
 - web app have to take data from local server
